@@ -15,7 +15,7 @@ void main() {
   }
   print('You have played ${Game.roundC.length} round');
   for (int i = 0; i < Game.roundC.length; i++) {
-    print('🚀You Guess ${Game.roundC[i]} times in ${i+1} round');
+    print('🚀You Guess ${Game.roundC[i]} times in round ${i+1}');
   }
 
   // end of program
